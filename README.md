@@ -12,9 +12,9 @@ An on-device Flutter application that detects mango leaf diseases using a Tensor
 ✔ On-device inference (fast & private) using flutter_tflite
 ✔ Image input via Camera or Gallery using image_picker
 ✔ Modern UI with dotted upload area, gradient buttons, and bottom navigation (Scan / Analysis)
-✔ AI Recommendations: Gemini 2.5 Flash gives 5 short, actionable tips for detected disease
-✔ Daily Tip: Auto-generated plant-care tip
-✔ Responsive layout; images contained without stretching (ClipRRect + BoxFit.contain)
+✔ AI Recommendations: Gemini 2.5 Flash provides 5 short, actionable tips for detected disease
+✔ Daily Tip: Auto-generated plant-care suggestion
+✔ Responsive Layout – images fit properly using ClipRRect + BoxFit.contain
 
 🧪 Dataset & Model
 
@@ -40,15 +40,15 @@ Images per class: ~1,200
 
 Total images: ≈ 9,600
 
-Training: Google Teachable Machine → export as TFLite
+Training: Google Teachable Machine → Export as TFLite
 
-Model files:
+Model Files:
 
 assets/model_unquant.tflite
 assets/labels.txt
 
 
-✅ Ensure labels.txt order matches the model output indices.
+✅ Ensure labels.txt order matches the model output indices
 
 📱 Tech Stack
 
@@ -74,7 +74,9 @@ lib/
   ├── ai_screen.dart
   └── widgets/ (shared UI components)
 
+
 Add assets in pubspec.yaml:
+
 flutter:
   uses-material-design: true
   assets:
@@ -84,27 +86,27 @@ flutter:
 
 🔧 Setup & Installation
 
-Clone the Repository
+1. Clone the Repository
 
 git clone https://github.com/alisraza123/Mango-Disease-Detection.git
 cd Mango-Disease-Detection
 
 
-Add Model Files (model_unquant.tflite, labels.txt, leaf.png) under assets/ and register in pubspec.yaml.
+2. Add Model Files (model_unquant.tflite, labels.txt, leaf.png) under assets/ and register them in pubspec.yaml.
 
-Install Dependencies
+3. Install Dependencies
 
 flutter pub get
 
 
-Update Android Permissions in AndroidManifest.xml:
+4. Update Android Permissions in AndroidManifest.xml:
 
 <uses-permission android:name="android.permission.CAMERA" />
 <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
 
-Update iOS Permissions in Info.plist:
+5. Update iOS Permissions in Info.plist:
 
 <key>NSCameraUsageDescription</key>
 <string>Need camera to capture plant leaves.</string>
@@ -112,7 +114,7 @@ Update iOS Permissions in Info.plist:
 <string>Need photo library to pick images of plant leaves.</string>
 
 
-Set Gemini API Key
+6. Set Gemini API Key
 
 const String geminiApiKey = String.fromEnvironment('GEMINI_API_KEY');
 
@@ -129,11 +131,11 @@ Choose a device/emulator → Tap Scan to capture/pick an image → Tap Analyze �
 
 ✅ Testing
 
-Verify real images from camera/gallery.
+Verify real images from camera/gallery
 
-Check predictions vs. known labels.
+Check predictions vs. known labels
 
-Ensure labels.txt order matches model output.
+Ensure labels.txt order matches model output
 
 Manual Checklist
 
@@ -147,11 +149,11 @@ Manual Checklist
 
  Confidence & label render after analysis
 
- Gemini returns 5 bullet tips; daily tip renders
+ Gemini returns 5 bullet tips + daily tip
 
 🤝 Contributing
 
-PRs are welcome! Open an issue for major changes and ensure consistency with the existing design and model interfaces.
+PRs are welcome! Please open an issue before major changes to ensure consistency with the design and model interfaces.
 
 👤 Author
 

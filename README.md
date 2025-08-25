@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # diseaseapp
 
 A new Flutter project.
@@ -18,3 +19,6 @@ samples, guidance on mobile development, and a full API reference.
 =======
 # Mango-Disease-Detection
 >>>>>>> 8d2c12a283d87f9a01917d05e793deb4f88e469f
+=======
+# Mango-Disease-Detection
+>>>>>>> f7634d5cced5c01c43bc64c8e3d30ac35fab9c5b

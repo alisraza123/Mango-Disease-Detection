@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # diseaseapp
 
 A new Flutter project.
@@ -14,3 +15,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# Mango-Disease-Detection
+>>>>>>> 8d2c12a283d87f9a01917d05e793deb4f88e469f

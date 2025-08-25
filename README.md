@@ -3,9 +3,9 @@
 An on-device Flutter application that detects mango leaf diseases using a TensorFlow Lite model (trained via Google Teachable Machine) and leverages Gemini 2.5 Flash to provide practical disease care recommendations and a daily plant-care tip.
 
 📸 Screenshots
-![Home Screen](screenshots/home.png)
-![Upload Screen](screenshots/docs/upload.png)
-![Analysis Screen](screenshots/analysis.png)
+![Home Screen](./screenshots/home.png)
+![Upload Screen](./screenshots/docs/upload.png)
+![Analysis Screen](./screenshots/analysis.png)
 
 ✨ Features
 

@@ -4,7 +4,7 @@ An on-device Flutter application that detects mango leaf diseases using a Tensor
 
 📸 Screenshots
 ![Home Screen](./screenshots/home.jpg)
-![Upload Screen](./screenshots/docs/upload.jpg)
+![Upload Screen](./screenshots/upload.jpg)
 ![Analysis Screen](./screenshots/analysis.jpg)
 
 ✨ Features
